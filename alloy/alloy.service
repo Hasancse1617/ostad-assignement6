@@ -1,0 +1,14 @@
+[Unit]
+Description=Grafana Alloy
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+User=root
+Group=root
+Type=simple
+ExecStart=/usr/bin/alloy run /etc/alloy/config.alloy
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target

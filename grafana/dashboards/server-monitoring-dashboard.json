@@ -1,0 +1,7 @@
+{
+  "title": "Server Monitoring - DevOps Batch 14",
+  "description": "Placeholder dashboard definition. Create/export the final dashboard from Grafana after the Prometheus datasource is configured.",
+  "panels": [],
+  "tags": ["devops", "prometheus", "node-exporter"],
+  "timezone": "browser"
+}

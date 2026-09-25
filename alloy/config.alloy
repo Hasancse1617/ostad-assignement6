@@ -1,0 +1,32 @@
+// Example Grafana Alloy configuration.
+// Adjust paths and labels to match the Ubuntu server.
+
+local.file_match "syslog" {
+  path_targets = [{
+    __path__ = "/var/log/syslog",
+    job      = "syslog",
+  }]
+}
+
+local.file_match "auth" {
+  path_targets = [{
+    __path__ = "/var/log/auth.log",
+    job      = "auth",
+  }]
+}
+
+loki.source.file "syslog" {
+  targets    = local.file_match.syslog.targets
+  forward_to = [loki.write.default.receiver]
+}
+
+loki.source.file "auth" {
+  targets    = local.file_match.auth.targets
+  forward_to = [loki.write.default.receiver]
+}
+
+loki.write "default" {
+  endpoint {
+    url = "http://localhost:3100/loki/api/v1/push"
+  }
+}

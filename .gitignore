@@ -1,0 +1,17 @@
+# Node
+app/node_modules/
+app/dist/
+
+# Environment/secrets
+.env
+.env.*
+*.pem
+*.key
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Logs
+*.log
