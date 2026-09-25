@@ -929,12 +929,26 @@ node_cpu_seconds_total
 
 ## Node Exporter
 
-### 03 — Node Exporter Metrics
+### 03 — Node Exporter Status
 
 File:
 
 ```text
-screenshots/03-node-exporter-metrics.png
+screenshots/03-node-exporter-status.png
+```
+
+Show terminal output:
+
+```text
+active (running)
+```
+
+### 04 — Node Exporter Metrics
+
+File:
+
+```text
+screenshots/04-node-exporter-metrics.png
 ```
 
 URL:
@@ -956,12 +970,12 @@ node_network_*
 
 ## Grafana
 
-### 04 — Prometheus Datasource
+### 05 — Prometheus Datasource
 
 File:
 
 ```text
-screenshots/04-grafana-prometheus-datasource.png
+screenshots/05-grafana-prometheus-datasource.png
 ```
 
 Show:
@@ -971,12 +985,12 @@ Prometheus
 Successfully queried
 ```
 
-### 05 — Monitoring Dashboard
+### 06 — Monitoring Dashboard
 
 File:
 
 ```text
-screenshots/05-grafana-monitoring-dashboard.png
+screenshots/06-grafana-monitoring-dashboard.png
 ```
 
 Dashboard must show:
@@ -990,22 +1004,22 @@ Dashboard must show:
 
 ## Loki
 
-### 06 — Loki Datasource
+### 07 — Loki Datasource
 
 File:
 
 ```text
-screenshots/06-grafana-loki-datasource.png
+screenshots/07-grafana-loki-datasource.png
 ```
 
 Show successful Loki connection.
 
-### 07 — Loki Logs
+### 08 — Loki Logs
 
 File:
 
 ```text
-screenshots/07-grafana-loki-logs.png
+screenshots/08-grafana-loki-logs.png
 ```
 
 Show logs in Grafana Explore.
@@ -1014,12 +1028,12 @@ Show logs in Grafana Explore.
 
 ## GitHub Actions
 
-### 08 — Self-hosted Runner
+### 09 — Self-hosted Runner
 
 File:
 
 ```text
-screenshots/08-self-hosted-runner-online.png
+screenshots/09-self-hosted-runner-online.png
 ```
 
 Show:
@@ -1029,12 +1043,12 @@ ostad-runner
 Online
 ```
 
-### 09 — Successful Workflow
+### 10 — Successful Workflow
 
 File:
 
 ```text
-screenshots/09-github-actions-build-test-artifact.png
+screenshots/10-github-actions-build-test-artifact.png
 ```
 
 Show:
@@ -1048,12 +1062,12 @@ Artifact Generation
 ✓
 ```
 
-### 10 — Artifact
+### 11 — Artifact
 
 File:
 
 ```text
-screenshots/10-github-actions-artifact.png
+screenshots/11-github-actions-artifact.png
 ```
 
 Show:
@@ -1179,15 +1193,16 @@ Here are the required screenshots demonstrating the successful setup:
 ![Prometheus Metrics](screenshots/02-prometheus-metrics.png)
 
 ### Node Exporter
-![Node Exporter Metrics](screenshots/03-node-exporter-metrics.png)
+![Node Exporter Status](screenshots/03-node-exporter-status.png)
+![Node Exporter Metrics](screenshots/04-node-exporter-metrics.png)
 
 ### Grafana
-![Grafana Prometheus Datasource](screenshots/04-grafana-prometheus-datasource.png)
-![Grafana Monitoring Dashboard](screenshots/05-grafana-monitoring-dashboard.png)
-![Grafana Loki Datasource](screenshots/06-grafana-loki-datasource.png)
-![Grafana Logs](screenshots/07-grafana-loki-logs.png)
+![Grafana Prometheus Datasource](screenshots/05-grafana-prometheus-datasource.png)
+![Grafana Monitoring Dashboard](screenshots/06-grafana-monitoring-dashboard.png)
+![Grafana Loki Datasource](screenshots/07-grafana-loki-datasource.png)
+![Grafana Logs](screenshots/08-grafana-loki-logs.png)
 
 ### GitHub Actions
-![Self-Hosted Runner Online](screenshots/08-self-hosted-runner-online.png)
-![GitHub Actions Workflow](screenshots/09-github-actions-build-test-artifact.png)
-![GitHub Actions Artifact](screenshots/10-github-actions-artifact.png)
+![Self-Hosted Runner Online](screenshots/09-self-hosted-runner-online.png)
+![GitHub Actions Workflow](screenshots/10-github-actions-build-test-artifact.png)
+![GitHub Actions Artifact](screenshots/11-github-actions-artifact.png)
