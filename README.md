@@ -5,7 +5,7 @@
 - **Student Name:** Hasan Ali
 - **Batch:** DevOps Batch 14
 - **Assignment Title:** Server Monitoring, Logging & CI Pipeline
-- **GitHub Repository:** `https://github.com/<your-username>/devops-monitoring-assignment`
+- **GitHub Repository:** `https://github.com/Hasancse1617/ostad-assignement6.git`
 
 ---
 
@@ -1181,18 +1181,3 @@ The completed project provides:
 - Automated build and testing
 - Build artifact generation and upload
 
----
-
-# 29. Submission
-
-**Student Name:** Hasan Ali
-
-**Batch:** DevOps Batch 14
-
-**GitHub Repository:**
-
-```text
-https://github.com/<your-username>/devops-monitoring-assignment
-```
-
-> Replace `<your-username>` with your actual GitHub username before submission.
