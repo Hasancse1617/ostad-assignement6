@@ -2,7 +2,7 @@
 
 ## Student Information
 
-- **Student Name:** Hasan Ali
+- **Student Name:** Md Hasan Ali
 - **Batch:** DevOps Batch 14
 - **Assignment Title:** Server Monitoring, Logging & CI Pipeline
 - **GitHub Repository:** `https://github.com/Hasancse1617/ostad-assignement6.git`
@@ -119,10 +119,13 @@ devops-monitoring-assignment/
 │
 ├── app/
 │   ├── package.json
-│   ├── src/
-│   │   └── index.js
-│   └── test/
-│       └── index.test.js
+│   ├── index.html
+│   ├── vite.config.js
+│   └── src/
+│       ├── main.jsx
+│       ├── App.jsx
+│       ├── App.css
+│       └── index.css
 │
 ├── prometheus/
 │   ├── prometheus.yml
@@ -1063,24 +1066,8 @@ inside the GitHub Actions Artifacts section.
 
 ---
 
-# 25. Screenshot Status
 
-| # | Requirement | Status |
-|---|---|---|
-| 1 | Prometheus Target UP | ⏳ To be added |
-| 2 | Prometheus Metrics | ⏳ To be added |
-| 3 | Node Exporter Metrics | ⏳ To be added |
-| 4 | Grafana Prometheus Datasource | ⏳ To be added |
-| 5 | Grafana Dashboard | ⏳ To be added |
-| 6 | Grafana Loki Datasource | ⏳ To be added |
-| 7 | Grafana Logs | ⏳ To be added |
-| 8 | Self-hosted Runner Online | ⏳ To be added |
-| 9 | Successful CI Workflow | ⏳ To be added |
-| 10 | GitHub Artifact | ⏳ To be added |
-
----
-
-# 26. Security
+# 25. Security
 
 Never commit the following to GitHub:
 
@@ -1098,7 +1085,7 @@ Use GitHub Secrets for sensitive CI/CD values when required.
 
 ---
 
-# 27. Verification Checklist
+# 26. Verification Checklist
 
 Before submission verify:
 
@@ -1168,7 +1155,7 @@ Verify:
 
 ---
 
-# 28. Final Result
+# 27. Final Result
 
 The completed project provides:
 
@@ -1181,3 +1168,26 @@ The completed project provides:
 - Automated build and testing
 - Build artifact generation and upload
 
+---
+
+# 28. Screenshots
+
+Here are the required screenshots demonstrating the successful setup:
+
+### Prometheus
+![Prometheus Targets](screenshots/01-prometheus-targets.png)
+![Prometheus Metrics](screenshots/02-prometheus-metrics.png)
+
+### Node Exporter
+![Node Exporter Metrics](screenshots/03-node-exporter-metrics.png)
+
+### Grafana
+![Grafana Prometheus Datasource](screenshots/04-grafana-prometheus-datasource.png)
+![Grafana Monitoring Dashboard](screenshots/05-grafana-monitoring-dashboard.png)
+![Grafana Loki Datasource](screenshots/06-grafana-loki-datasource.png)
+![Grafana Logs](screenshots/07-grafana-loki-logs.png)
+
+### GitHub Actions
+![Self-Hosted Runner Online](screenshots/08-self-hosted-runner-online.png)
+![GitHub Actions Workflow](screenshots/09-github-actions-build-test-artifact.png)
+![GitHub Actions Artifact](screenshots/10-github-actions-artifact.png)
