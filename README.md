@@ -149,14 +149,15 @@ devops-monitoring-assignment/
 ├── screenshots/
 │   ├── 01-prometheus-targets.png
 │   ├── 02-prometheus-metrics.png
-│   ├── 03-node-exporter-metrics.png
-│   ├── 04-grafana-prometheus-datasource.png
-│   ├── 05-grafana-monitoring-dashboard.png
-│   ├── 06-grafana-loki-datasource.png
-│   ├── 07-grafana-loki-logs.png
-│   ├── 08-self-hosted-runner-online.png
-│   ├── 09-github-actions-build-test-artifact.png
-│   └── 10-github-actions-artifact.png
+│   ├── 03-node-exporter-status.png
+│   ├── 04-node-exporter-metrics.png
+│   ├── 05-grafana-prometheus-datasource.png
+│   ├── 06-grafana-monitoring-dashboard.png
+│   ├── 07-grafana-loki-datasource.png
+│   ├── 08-grafana-loki-logs.png
+│   ├── 09-self-hosted-runner-online.png
+│   ├── 10-github-actions-build-test-artifact.png
+│   └── 11-github-actions-artifact.png
 │
 └── README.md
 ```
