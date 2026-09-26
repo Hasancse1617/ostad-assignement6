@@ -319,12 +319,7 @@ sudo cp prometheus-<VERSION>.linux-amd64/prometheus /usr/local/bin/
 sudo cp prometheus-<VERSION>.linux-amd64/promtool /usr/local/bin/
 ```
 
-Copy console files if needed:
 
-```bash
-sudo cp -r prometheus-<VERSION>.linux-amd64/consoles /etc/prometheus/
-sudo cp -r prometheus-<VERSION>.linux-amd64/console_libraries /etc/prometheus/
-```
 
 Set ownership:
 
